@@ -4,4 +4,8 @@ const demo = () => {
   console.log("testing 12345");
 };
 
-export { demo };
+const demoone = () => {
+  console.log("demoone");
+};
+
+export { demo, demoone };
